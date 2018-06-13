@@ -1,0 +1,76 @@
+		body  {
+        	/* image as a background */
+        	font-family: sans-serif;
+			background-color: purple;
+    		background-image: url("nigelthornberry.png");
+    		background-size: 15%;	
+		}	
+		table {
+    		font-family: arial, sans-serif;
+    		border-collapse: collapse;
+    		width: 100%;
+		}
+		td, th {
+    		text-align: left;
+    		padding: 8px;
+		}
+		tr:nth-child(even) {
+    		background-color: orange;
+		}
+		#quote {
+			background-color:orange;
+			font-family: "Times New Roman";
+			font-size: 40px;
+			color: purple;
+		}
+		a:hover {
+    		background-color: purple;
+    		color: orange;
+		}
+		.box {
+			background-color: white;
+			border: 3px solid orange;
+			padding: 10px;
+			border-collapse: collapse;
+			margin: 30px;
+		}
+		.box2 {
+			background-color: white;
+			border: 3px solid orange;
+			margin: auto;	
+			width: 70%;
+			padding: 10px;
+			border-collapse: collapse;		
+		}
+		h1 {
+			font-weight: bold;
+			font-size: 48px;
+			color: purple;
+			text-align: center;
+		}
+		h2 {
+			border: 5px solid purple;
+			padding: 10px;
+			border-collapse: collapse;
+			text-align: center;
+		}
+		.center {
+    		display: block;
+    		margin-left: auto;
+    		margin-right: auto;
+    		width: 50%;
+		}
+
+		#floatleft {
+
+			margin-right: 30px;
+			float: right;
+		}
+		#link-container {
+    		text-align: center;
+		}
+		span.bold-red {
+    		color: red;
+    		font-weight: bold;
+		}
+		
